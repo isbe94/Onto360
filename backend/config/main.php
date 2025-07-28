@@ -49,7 +49,7 @@ $config = [
         'view' => [
             'theme' => [
                 'basePath' => '@backend/themes/make',
-                'baseUrl' => '@web/../themes/make',
+                'baseUrl' => '@web/themes/make',
                 'pathMap' => [
                     '@backend/views' => '@backend/themes/make/views',
                 ],
