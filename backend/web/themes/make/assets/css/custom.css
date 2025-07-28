@@ -1,0 +1,214 @@
+.k-link {
+    color: #2C8CA1 !important;
+    font-weight: bold;
+}
+
+.k-grid-pager {
+    border-top-color: rgb(44, 140, 161);
+    border-top-width: 1px;
+    border-bottom-color: rgb(44, 140, 161);
+    border-bottom-width: 1px;
+}
+
+.k-state-selected {
+    border-color: rgb(44, 140, 161) transparent transparent !important;
+    border-radius: 0px;
+    box-shadow: none;
+    color: rgb(44, 140, 161) !important;
+}
+
+.k-pager-info {
+    color: rgb(44, 140, 161) !important;
+}
+
+.k-pager-wrap, .k-editor-toolbar {
+    color: rgb(44, 140, 161) !important;
+}
+
+.k-icon .k-i-refresh {
+    color: rgb(44, 140, 161) !important;
+}
+
+.x_title a {
+    text-shadow: none;
+    color: rgb(44, 140, 161) !important;
+}
+
+.edit {
+    cursor: hand;
+!important;
+    padding-right: 0px !important;
+
+}
+
+.delete {
+    cursor: hand;
+!important;
+    padding-right: 0px !important;
+
+}
+
+.btn_delete {
+    /*margin-left: 35%!important;*/
+    margin-top: 5% !important;
+}
+
+.header h2 {
+    margin-left: 20px;
+}
+
+.force-table-responsive {
+    /**/
+    overflow-x: hidden !important;
+}
+
+.dropzone .dz-preview .dz-image img {
+    width: 120px;
+    height: 120px;
+}
+
+.k-grid-content {
+    /*//height: 80% !important;*/
+    height: 85% !important;
+}
+
+.btn-edit {
+    margin-top: 5% !important;
+    color: #00A8FF !important;
+}
+
+.btn-checkbox {
+    margin-top: 5% !important;
+}
+
+.k-header, .k-grid-header, .k-toolbar, .k-dropdown-wrap, .k-picker-wrap, .k-numeric-wrap, .k-grouping-header, .k-pager-wrap, .k-textbox, .k-button, .k-progressbar, .k-draghandle, .k-autocomplete, .k-state-highlight, .k-tabstrip-items .k-item, .k-panelbar .k-tabstrip-items .k-item, .km-pane-wrapper > .km-pane > .km-view > .km-content {
+    background-image: none;
+    background-position: 50% 50%;
+    background-color: #e6e6e6;
+}
+
+.k-state-hover {
+    background-image: none;
+    background-position: 50% 50%;
+    background-color: #e6e6e6 !important;
+}
+
+.k-hierarchy-col {
+    width: 5% !important;
+}
+
+.btn {
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+
+.k-scheduler .k-header .k-link {
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+}
+
+.k-scheduler .k-header li {
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+}
+
+.k-scheduler .k-scheduler-toolbar .k-scheduler-views li.k-state-hover .k-link {
+    color: #2ca2c5 !important;
+    background-color: white !important;
+}
+
+.k-scheduler .k-scheduler-toolbar .k-state-selected {
+    background-color: #e6e6e6 !important;
+}
+
+.k-scheduler-layout td.k-state-selected {
+    background-color: #2ca2c5 !important;
+}
+
+.k-scheduler .k-scheduler-toolbar .k-scheduler-views li .k-link {
+    border-color: #e6e6e6;
+}
+
+.k-scheduler td.k-today, .k-scheduler th.k-today {
+    background-color: #ffedff;
+}
+
+.k-scheduler .k-scheduler-toolbar .k-scheduler-views li.k-state-hover {
+    border-color: #e6e6e6 !important;
+}
+
+#divSmallBoxes {
+    z-index: 1000;
+}
+
+.k-master-row td {
+    text-align: center;
+}
+
+th[role="columnheader"] {
+    text-align: center !important;
+}
+
+.k-grid .k-grouping-header {
+    color: black;
+}
+
+.k-grouping-header .k-group-indicator, .k-pivot-toolbar .k-button {
+    color: #fff;
+    background-color: #f5f5f5 !important;
+    border-color: #0c0c0c;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.k-tooltip-content img {
+    float: left;
+
+    margin-right: 6px;
+    margin-top: 6px;
+    /*width: 36px;*/
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.k-animation-container {
+    margin-top: -2%;
+}
+
+.float-button {
+    margin-top: -1.5%;
+    position: absolute;
+}
+
+.float-button .height_fix {
+    margin-top: 100%;
+}
+
+.float-button .content {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 100%;
+    z-index: 9999;
+    width: 100%;
+    text-align: center;
+    margin-top: -20px; /* Note, this must be half the font size */
+    /*color: $light;*/
+}
+.btn-group > .dropdown-menu {
+    /*font-weight: 400;*/
+    /*margin-left: 80%;*/
+    /*margin-top: -30.5%;*/
+}
+.k-grid-content div{
+   text-align: center;
+}
+
+.k-grid-content td{
+    text-align: center;
+}
+.k-grid-content .k-grouping-row td{
+    text-align: left;
+}
+

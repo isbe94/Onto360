@@ -1,0 +1,1168 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Ontology1478300077412 "http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#" >
+    <!ENTITY Ontology14783000774128 "http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#3" >
+    <!ENTITY Ontology14783000774122 "http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#4" >
+    <!ENTITY Ontology147830007741213 "http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#2" >
+    <!ENTITY Ontology147830007741211 "http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#1" >
+    <!ENTITY Ontology14783000774126 "http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#200" >
+    <!ENTITY Ontology14783000774127 "http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#400" >
+    <!ENTITY Ontology14783000774124 "http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#5-10" >
+    <!ENTITY Ontology14783000774123 "http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#10-15" >
+    <!ENTITY Ontology14783000774125 "http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#2.5-5" >
+    <!ENTITY Ontology147830007741212 "http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#20-30" >
+    <!ENTITY Ontology14783000774129 "http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#10-20" >
+    <!ENTITY Ontology147830007741210 "http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#0.25-0.5" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:Ontology147830007741212="&Ontology1478300077412;20-30"
+     xmlns:Ontology14783000774123="&Ontology1478300077412;10-15"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:Ontology14783000774122="&Ontology1478300077412;4"
+     xmlns:Ontology147830007741213="&Ontology1478300077412;2"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:Ontology14783000774126="&Ontology1478300077412;200"
+     xmlns:Ontology147830007741210="&Ontology1478300077412;0.25-0.5"
+     xmlns:Ontology14783000774125="&Ontology1478300077412;2.5-5"
+     xmlns:Ontology14783000774127="&Ontology1478300077412;400"
+     xmlns:Ontology14783000774129="&Ontology1478300077412;10-20"
+     xmlns:Ontology147830007741211="&Ontology1478300077412;1"
+     xmlns:Ontology14783000774128="&Ontology1478300077412;3"
+     xmlns:Ontology1478300077412="http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:Ontology14783000774124="&Ontology1478300077412;5-10">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#cura -->
+
+    <owl:ObjectProperty rdf:about="#cura">
+        <rdfs:domain rdf:resource="#Ansiolitico"/>
+        <rdfs:range rdf:resource="#Sintoma"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#esta_Contraindicado -->
+
+    <owl:ObjectProperty rdf:about="#esta_Contraindicado">
+        <rdfs:domain rdf:resource="#Ansiolitico"/>
+        <rdfs:range rdf:resource="#Condicion_Medica"/>
+        <owl:equivalentProperty rdf:resource="#no_Recomienda_Tomar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#no_Recomienda_Tomar -->
+
+    <owl:ObjectProperty rdf:about="#no_Recomienda_Tomar">
+        <rdfs:domain rdf:resource="#Ansiolitico"/>
+        <rdfs:range rdf:resource="#Grupo_Edad"/>
+        <owl:inverseOf rdf:resource="#se_Recomienda_Tomar"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#para -->
+
+    <owl:ObjectProperty rdf:about="#para"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#produce -->
+
+    <owl:ObjectProperty rdf:about="#produce">
+        <rdfs:domain rdf:resource="#Ansiolitico"/>
+        <rdfs:range rdf:resource="#Reaccion_Adversa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#se_Receta -->
+
+    <owl:ObjectProperty rdf:about="#se_Receta">
+        <rdfs:range rdf:resource="#Ansiolitico"/>
+        <rdfs:domain rdf:resource="#Paciente"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#se_Recomienda_Tomar -->
+
+    <owl:ObjectProperty rdf:about="#se_Recomienda_Tomar">
+        <rdfs:range rdf:resource="#Ansiolitico"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#tiene -->
+
+    <owl:ObjectProperty rdf:about="#tiene">
+        <rdfs:domain rdf:resource="#Paciente"/>
+        <rdfs:range rdf:resource="#Sintoma"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#tiene_Condicion_Medica -->
+
+    <owl:ObjectProperty rdf:about="#tiene_Condicion_Medica">
+        <rdfs:range rdf:resource="#Condicion_Medica"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#tiene_Grupo_Edad -->
+
+    <owl:ObjectProperty rdf:about="#tiene_Grupo_Edad">
+        <rdfs:range rdf:resource="#Grupo_Edad"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#tiene_Posologia -->
+
+    <owl:ObjectProperty rdf:about="#tiene_Posologia">
+        <rdfs:domain rdf:resource="#Ansiolitico"/>
+        <rdfs:range rdf:resource="#Dosificacion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#tiene_Sexo -->
+
+    <owl:ObjectProperty rdf:about="#tiene_Sexo">
+        <rdfs:range rdf:resource="#Sexo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#tiene_una_Frecuencia -->
+
+    <owl:ObjectProperty rdf:about="#tiene_una_Frecuencia">
+        <rdfs:domain rdf:resource="#Dosificacion"/>
+        <rdfs:range rdf:resource="#Frecuencia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#toma_una_Dosis -->
+
+    <owl:ObjectProperty rdf:about="#toma_una_Dosis">
+        <rdfs:domain rdf:resource="#Dosificacion"/>
+        <rdfs:range rdf:resource="#Dosificacion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Ansiolitico -->
+
+    <owl:Class rdf:about="#Ansiolitico"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Anticonvulsionante -->
+
+    <owl:Class rdf:about="#Anticonvulsionante">
+        <rdfs:subClassOf rdf:resource="#CategoriaFarmacologica"/>
+    </owl:Class>
+	
+	<owl:SubClass rdf:about="#Isbel">
+        <rdfs:subClassOf rdf:resource="#CategoriaFarmacologica"/>
+    </owl:SubClass>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#CategoriaFarmacologica -->
+
+    <owl:Class rdf:about="#CategoriaFarmacologica"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Condicion_Medica -->
+
+    <owl:Class rdf:about="#Condicion_Medica"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dosificacion -->
+
+    <owl:Class rdf:about="#Dosificacion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Esencial -->
+
+    <owl:Class rdf:about="#Esencial">
+        <rdfs:subClassOf rdf:resource="#Ansiolitico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Frecuencia -->
+
+    <owl:Class rdf:about="#Frecuencia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Grupo_Edad -->
+
+    <owl:Class rdf:about="#Grupo_Edad"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Hipnotico -->
+
+    <owl:Class rdf:about="#Hipnotico">
+        <rdfs:subClassOf rdf:resource="#CategoriaFarmacologica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#No_Esencial -->
+
+    <owl:Class rdf:about="#No_Esencial">
+        <rdfs:subClassOf rdf:resource="#Ansiolitico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Paciente -->
+
+    <owl:Class rdf:about="#Paciente"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Psicofarmaco -->
+
+    <owl:Class rdf:about="#Psicofarmaco">
+        <rdfs:subClassOf rdf:resource="#CategoriaFarmacologica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Reaccion_Adversa -->
+
+    <owl:Class rdf:about="#Reaccion_Adversa">
+        <owl:equivalentClass rdf:resource="#Sintoma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#RelajanteMuscular -->
+
+    <owl:Class rdf:about="#RelajanteMuscular">
+        <rdfs:subClassOf rdf:resource="#CategoriaFarmacologica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Sedante -->
+
+    <owl:Class rdf:about="#Sedante">
+        <rdfs:subClassOf rdf:resource="#CategoriaFarmacologica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Sexo -->
+
+    <owl:Class rdf:about="#Sexo">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Sintoma -->
+
+    <owl:Class rdf:about="#Sintoma"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Vital -->
+
+    <owl:Class rdf:about="#Vital">
+        <rdfs:subClassOf rdf:resource="#Ansiolitico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#0.25-0.5_mg -->
+
+    <owl:Thing rdf:about="#0.25-0.5_mg">
+        <tiene_una_Frecuencia rdf:resource="#3_veces_al_dia"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#10-15_mg -->
+
+    <owl:Thing rdf:about="#10-15_mg">
+        <tiene_una_Frecuencia rdf:resource="#1_vez_al_dia"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#10-20_mg -->
+
+    <owl:Thing rdf:about="#10-20_mg">
+        <tiene_una_Frecuencia rdf:resource="#1_vez_al_dia"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#1_vez_al_dia -->
+
+    <Frecuencia rdf:about="#1_vez_al_dia">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Frecuencia>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#2.5-5_mg -->
+
+    <owl:Thing rdf:about="#2.5-5_mg">
+        <tiene_una_Frecuencia rdf:resource="#1_vez_al_dia"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#20-30_mg -->
+
+    <owl:Thing rdf:about="#20-30_mg">
+        <tiene_una_Frecuencia rdf:resource="#1_vez_al_dia"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#200_mg -->
+
+    <owl:Thing rdf:about="#200_mg">
+        <tiene_una_Frecuencia rdf:resource="#3_veces_al_dia"/>
+        <tiene_una_Frecuencia rdf:resource="#4_veces_al_dia"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#2_veces_al_dia -->
+
+    <Frecuencia rdf:about="#2_veces_al_dia">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Frecuencia>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#3_veces_al_dia -->
+
+    <Frecuencia rdf:about="#3_veces_al_dia">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Frecuencia>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#400_mg -->
+
+    <owl:Thing rdf:about="#400_mg">
+        <tiene_una_Frecuencia rdf:resource="#3_veces_al_dia"/>
+        <tiene_una_Frecuencia rdf:resource="#4_veces_al_dia"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#4_veces_al_dia -->
+
+    <Frecuencia rdf:about="#4_veces_al_dia">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Frecuencia>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#5-10_mg -->
+
+    <owl:Thing rdf:about="#5-10_mg">
+        <tiene_una_Frecuencia rdf:resource="#1_vez_al_dia"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Abtinencia_Alcoholica -->
+
+    <owl:Thing rdf:about="#Abtinencia_Alcoholica">
+        <rdf:type rdf:resource="#Sintoma"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Adulto -->
+
+    <Grupo_Edad rdf:about="#Adulto">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <se_Recomienda_Tomar rdf:resource="#Alprazolan"/>
+        <se_Recomienda_Tomar rdf:resource="#Clobazan"/>
+        <se_Recomienda_Tomar rdf:resource="#Clorodiazepoxido"/>
+        <se_Recomienda_Tomar rdf:resource="#Diazepan"/>
+        <se_Recomienda_Tomar rdf:resource="#Medazepan"/>
+        <se_Recomienda_Tomar rdf:resource="#Meprobamato"/>
+        <se_Recomienda_Tomar rdf:resource="#Nitrazepan"/>
+    </Grupo_Edad>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Adulto_Mayor -->
+
+    <Grupo_Edad rdf:about="#Adulto_Mayor">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <se_Recomienda_Tomar rdf:resource="#Alprazolan"/>
+        <se_Recomienda_Tomar rdf:resource="#Clobazan"/>
+        <se_Recomienda_Tomar rdf:resource="#Clorodiazepoxido"/>
+        <se_Recomienda_Tomar rdf:resource="#Diazepan"/>
+        <se_Recomienda_Tomar rdf:resource="#Medazepan"/>
+        <se_Recomienda_Tomar rdf:resource="#Meprobamato"/>
+        <se_Recomienda_Tomar rdf:resource="#Nitrazepan"/>
+    </Grupo_Edad>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Agresividad -->
+
+    <Reaccion_Adversa rdf:about="#Agresividad">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Reaccion_Adversa>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Alprazolan -->
+
+    <Hipnotico rdf:about="#Alprazolan">
+        <rdf:type rdf:resource="#Esencial"/>
+        <rdf:type rdf:resource="#Psicofarmaco"/>
+        <rdf:type rdf:resource="#RelajanteMuscular"/>
+        <rdf:type rdf:resource="#Sedante"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <tiene_Posologia rdf:resource="#Alprazolan"/>
+        <cura rdf:resource="#Ansiedad"/>
+        <esta_Contraindicado rdf:resource="#Apnea_del_Sue&#241;o"/>
+        <esta_Contraindicado rdf:resource="#Ataxia"/>
+        <produce rdf:resource="#Ataxia"/>
+        <esta_Contraindicado rdf:resource="#Cefalea"/>
+        <esta_Contraindicado rdf:resource="#Debilidad_muscular"/>
+        <esta_Contraindicado rdf:resource="#Depresion_Respiratoria"/>
+        <tiene_Posologia rdf:resource="#Dosis_8"/>
+        <tiene_Posologia rdf:resource="#Dosis_9"/>
+        <produce rdf:resource="#Somnolencia"/>
+        <esta_Contraindicado rdf:resource="#Trastornos_gastrointestinales"/>
+    </Hipnotico>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Ansiedad -->
+
+    <owl:Thing rdf:about="#Ansiedad">
+        <rdf:type rdf:resource="#Sintoma"/>
+        <esta_Contraindicado rdf:resource="#Apnea_del_Sue&#241;o"/>
+        <esta_Contraindicado rdf:resource="#Da&#241;o_Hepatico"/>
+        <esta_Contraindicado rdf:resource="#Depresion_Respiratoria"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Apnea_del_Sue&#241;o -->
+
+    <Condicion_Medica rdf:about="#Apnea_del_Sue&#241;o">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Condicion_Medica>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Ataxia -->
+
+    <Reaccion_Adversa rdf:about="#Ataxia">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Reaccion_Adversa>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Cambio_Salivacion -->
+
+    <owl:Thing rdf:about="#Cambio_Salivacion">
+        <rdf:type rdf:resource="#Reaccion_Adversa"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Cefalea -->
+
+    <owl:Thing rdf:about="#Cefalea">
+        <rdf:type rdf:resource="#Reaccion_Adversa"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Clobazan -->
+
+    <Sedante rdf:about="#Clobazan">
+        <rdf:type rdf:resource="#Psicofarmaco"/>
+        <rdf:type rdf:resource="#Vital"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <cura rdf:resource="#Ansiedad"/>
+        <esta_Contraindicado rdf:resource="#Apnea_del_Sue&#241;o"/>
+        <produce rdf:resource="#Ataxia"/>
+        <produce rdf:resource="#Cefalea"/>
+        <esta_Contraindicado rdf:resource="#Da&#241;o_Hepatico"/>
+        <produce rdf:resource="#Debilidad_muscular"/>
+        <esta_Contraindicado rdf:resource="#Depresion_Respiratoria"/>
+        <tiene_Posologia rdf:resource="#Dosis_5"/>
+        <tiene_Posologia rdf:resource="#Dosis_6"/>
+        <tiene_Posologia rdf:resource="#Dosis_7"/>
+        <cura rdf:resource="#Epilepsia"/>
+        <produce rdf:resource="#Retencion_Urinaria"/>
+        <produce rdf:resource="#Trastornos_gastrointestinales"/>
+    </Sedante>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Clorodiazepoxido -->
+
+    <RelajanteMuscular rdf:about="#Clorodiazepoxido">
+        <rdf:type rdf:resource="#Esencial"/>
+        <rdf:type rdf:resource="#Hipnotico"/>
+        <rdf:type rdf:resource="#Psicofarmaco"/>
+        <rdf:type rdf:resource="#Sedante"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <cura rdf:resource="#Abtinencia_Alcoholica"/>
+        <cura rdf:resource="#Ansiedad"/>
+        <esta_Contraindicado rdf:resource="#Apnea_del_Sue&#241;o"/>
+        <produce rdf:resource="#Ataxia"/>
+        <produce rdf:resource="#Confusion"/>
+        <esta_Contraindicado rdf:resource="#Da&#241;o_Hepatico"/>
+        <produce rdf:resource="#Debilidad_muscular"/>
+        <esta_Contraindicado rdf:resource="#Depresion_Respiratoria"/>
+        <tiene_Posologia rdf:resource="#Dosis_10"/>
+        <tiene_Posologia rdf:resource="#Dosis_11"/>
+        <tiene_Posologia rdf:resource="#Dosis_12"/>
+        <esta_Contraindicado rdf:resource="#Embarazo"/>
+        <cura rdf:resource="#Espasmo_Muscular"/>
+        <cura rdf:resource="#Insomnio"/>
+        <esta_Contraindicado rdf:resource="#Lactancia"/>
+        <produce rdf:resource="#Somnolencia"/>
+    </RelajanteMuscular>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Confusion -->
+
+    <Reaccion_Adversa rdf:about="#Confusion">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Reaccion_Adversa>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Crisis_Convulsivas -->
+
+    <owl:Thing rdf:about="#Crisis_Convulsivas">
+        <rdf:type rdf:resource="#Sintoma"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Da&#241;o_Hepatico -->
+
+    <Condicion_Medica rdf:about="#Da&#241;o_Hepatico">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Condicion_Medica>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Debilidad_muscular -->
+
+    <owl:Thing rdf:about="#Debilidad_muscular">
+        <rdf:type rdf:resource="#Reaccion_Adversa"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Depresion -->
+
+    <owl:Thing rdf:about="#Depresion">
+        <rdf:type rdf:resource="#Reaccion_Adversa"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Depresion_Respiratoria -->
+
+    <Condicion_Medica rdf:about="#Depresion_Respiratoria">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Condicion_Medica>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Diazepan -->
+
+    <owl:Thing rdf:about="#Diazepan">
+        <rdf:type rdf:resource="#Anticonvulsionante"/>
+        <rdf:type rdf:resource="#Hipnotico"/>
+        <rdf:type rdf:resource="#RelajanteMuscular"/>
+        <rdf:type rdf:resource="#Sedante"/>
+        <rdf:type rdf:resource="#Vital"/>
+        <cura rdf:resource="#Abtinencia_Alcoholica"/>
+        <cura rdf:resource="#Ansiedad"/>
+        <produce rdf:resource="#Cefalea"/>
+        <cura rdf:resource="#Crisis_Convulsivas"/>
+        <produce rdf:resource="#Depresion"/>
+        <cura rdf:resource="#Depresion_Respiratoria"/>
+        <cura rdf:resource="#Dolores_fuertes"/>
+        <tiene_Posologia rdf:resource="#Dosis_15"/>
+        <tiene_Posologia rdf:resource="#Dosis_16"/>
+        <cura rdf:resource="#Epilepsia"/>
+        <cura rdf:resource="#Espasmo_Muscular"/>
+        <produce rdf:resource="#Fatiga"/>
+        <esta_Contraindicado rdf:resource="#Hipersensibilidad_a_las_benzodiazepinas"/>
+        <produce rdf:resource="#Nausea"/>
+        <produce rdf:resource="#Somnolencia"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dolores_fuertes -->
+
+    <Sintoma rdf:about="#Dolores_fuertes">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Sintoma>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dosis_1 -->
+
+    <Dosificacion rdf:about="#Dosis_1">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <toma_una_Dosis rdf:resource="#10-20_mg"/>
+        <tiene_una_Frecuencia rdf:resource="#1_vez_al_dia"/>
+        <tiene_Grupo_Edad rdf:resource="#Adulto"/>
+    </Dosificacion>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dosis_10 -->
+
+    <owl:Thing rdf:about="#Dosis_10">
+        <rdf:type rdf:resource="#Dosificacion"/>
+        <toma_una_Dosis rdf:resource="#10-15_mg"/>
+        <tiene_una_Frecuencia rdf:resource="#3_veces_al_dia"/>
+        <tiene_Grupo_Edad rdf:resource="#Adulto"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dosis_11 -->
+
+    <Dosificacion rdf:about="#Dosis_11">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <tiene_una_Frecuencia rdf:resource="#3_veces_al_dia"/>
+        <toma_una_Dosis rdf:resource="#5-10_mg"/>
+        <tiene_Grupo_Edad rdf:resource="#Adulto_Mayor"/>
+    </Dosificacion>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dosis_12 -->
+
+    <Dosificacion rdf:about="#Dosis_12">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <tiene_una_Frecuencia rdf:resource="#4_veces_al_dia"/>
+        <toma_una_Dosis rdf:resource="#5-10_mg"/>
+        <tiene_Grupo_Edad rdf:resource="#Ni&#241;o"/>
+    </Dosificacion>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dosis_13 -->
+
+    <owl:Thing rdf:about="#Dosis_13">
+        <rdf:type rdf:resource="#Dosificacion"/>
+        <tiene_una_Frecuencia rdf:resource="#1_vez_al_dia"/>
+        <toma_una_Dosis rdf:resource="#5-10_mg"/>
+        <tiene_Grupo_Edad rdf:resource="#Adulto"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dosis_14 -->
+
+    <owl:Thing rdf:about="#Dosis_14">
+        <rdf:type rdf:resource="#Dosificacion"/>
+        <tiene_una_Frecuencia rdf:resource="#1_vez_al_dia"/>
+        <toma_una_Dosis rdf:resource="#2.5-5_mg"/>
+        <tiene_Grupo_Edad rdf:resource="#Adulto_Mayor"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dosis_15 -->
+
+    <owl:Thing rdf:about="#Dosis_15">
+        <rdf:type rdf:resource="#Dosificacion"/>
+        <toma_una_Dosis rdf:resource="#10-20_mg"/>
+        <tiene_una_Frecuencia rdf:resource="#1_vez_al_dia"/>
+        <tiene_Grupo_Edad rdf:resource="#Adulto"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dosis_16 -->
+
+    <Dosificacion rdf:about="#Dosis_16">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <toma_una_Dosis rdf:resource="#10-20_mg"/>
+        <tiene_una_Frecuencia rdf:resource="#1_vez_al_dia"/>
+        <tiene_Grupo_Edad rdf:resource="#Adulto_Mayor"/>
+    </Dosificacion>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dosis_2 -->
+
+    <Dosificacion rdf:about="#Dosis_2">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <tiene_una_Frecuencia rdf:resource="#1_vez_al_dia"/>
+        <toma_una_Dosis rdf:resource="#5-10_mg"/>
+        <tiene_Grupo_Edad rdf:resource="#Adulto_Mayor"/>
+    </Dosificacion>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dosis_3 -->
+
+    <Dosificacion rdf:about="#Dosis_3">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <tiene_una_Frecuencia rdf:resource="#3_veces_al_dia"/>
+        <toma_una_Dosis rdf:resource="#400_mg"/>
+        <tiene_Grupo_Edad rdf:resource="#Adulto"/>
+    </Dosificacion>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dosis_4 -->
+
+    <owl:Thing rdf:about="#Dosis_4">
+        <rdf:type rdf:resource="#Dosificacion"/>
+        <toma_una_Dosis rdf:resource="#200_mg"/>
+        <tiene_una_Frecuencia rdf:resource="#3_veces_al_dia"/>
+        <tiene_Grupo_Edad rdf:resource="#Adulto_Mayor"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dosis_5 -->
+
+    <owl:Thing rdf:about="#Dosis_5">
+        <rdf:type rdf:resource="#Dosificacion"/>
+        <tiene_una_Frecuencia rdf:resource="#1_vez_al_dia"/>
+        <toma_una_Dosis rdf:resource="#20-30_mg"/>
+        <tiene_Grupo_Edad rdf:resource="#Adulto"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dosis_6 -->
+
+    <Dosificacion rdf:about="#Dosis_6">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <toma_una_Dosis rdf:resource="#10-20_mg"/>
+        <tiene_una_Frecuencia rdf:resource="#1_vez_al_dia"/>
+        <tiene_Grupo_Edad rdf:resource="#Adulto_Mayor"/>
+    </Dosificacion>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dosis_7 -->
+
+    <Dosificacion rdf:about="#Dosis_7">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <toma_una_Dosis rdf:resource="#10-15_mg"/>
+        <tiene_una_Frecuencia rdf:resource="#1_vez_al_dia"/>
+        <tiene_Grupo_Edad rdf:resource="#Ni&#241;o"/>
+    </Dosificacion>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dosis_8 -->
+
+    <Dosificacion rdf:about="#Dosis_8">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <toma_una_Dosis rdf:resource="#0.25-0.5_mg"/>
+        <tiene_una_Frecuencia rdf:resource="#3_veces_al_dia"/>
+        <tiene_Grupo_Edad rdf:resource="#Adulto"/>
+    </Dosificacion>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Dosis_9 -->
+
+    <owl:Thing rdf:about="#Dosis_9">
+        <rdf:type rdf:resource="#Dosificacion"/>
+        <toma_una_Dosis rdf:resource="#0.25-0.5_mg"/>
+        <tiene_una_Frecuencia rdf:resource="#2_veces_al_dia"/>
+        <tiene_Grupo_Edad rdf:resource="#Adulto_Mayor"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Embarazo -->
+
+    <owl:Thing rdf:about="#Embarazo">
+        <rdf:type rdf:resource="#Condicion_Medica"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Epilepsia -->
+
+    <Sintoma rdf:about="#Epilepsia">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Sintoma>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Espasmo_Muscular -->
+
+    <Sintoma rdf:about="#Espasmo_Muscular">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Sintoma>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Estado_Obsesivo -->
+
+    <Condicion_Medica rdf:about="#Estado_Obsesivo">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Condicion_Medica>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Euforia -->
+
+    <owl:Thing rdf:about="#Euforia">
+        <rdf:type rdf:resource="#Reaccion_Adversa"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Fatiga -->
+
+    <owl:Thing rdf:about="#Fatiga">
+        <rdf:type rdf:resource="#Reaccion_Adversa"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Femenino -->
+
+    <owl:Thing rdf:about="#Femenino">
+        <rdf:type rdf:resource="#Sexo"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Hipersensibilidad_a_las_benzodiazepinas -->
+
+    <owl:Thing rdf:about="#Hipersensibilidad_a_las_benzodiazepinas">
+        <rdf:type rdf:resource="#Condicion_Medica"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Insomnio -->
+
+    <Sintoma rdf:about="#Insomnio">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Sintoma>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Insuficiencia_pulmonar -->
+
+    <owl:Thing rdf:about="#Insuficiencia_pulmonar">
+        <rdf:type rdf:resource="#Condicion_Medica"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Lactancia -->
+
+    <Condicion_Medica rdf:about="#Lactancia">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Condicion_Medica>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Masculino -->
+
+    <owl:Thing rdf:about="#Masculino">
+        <rdf:type rdf:resource="#Sexo"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Medazepan -->
+
+    <owl:Thing rdf:about="#Medazepan">
+        <rdf:type rdf:resource="#Esencial"/>
+        <rdf:type rdf:resource="#Hipnotico"/>
+        <rdf:type rdf:resource="#Sedante"/>
+        <produce rdf:resource="#Agresividad"/>
+        <cura rdf:resource="#Ansiedad"/>
+        <esta_Contraindicado rdf:resource="#Apnea_del_Sue&#241;o"/>
+        <produce rdf:resource="#Cambio_Salivacion"/>
+        <esta_Contraindicado rdf:resource="#Da&#241;o_Hepatico"/>
+        <produce rdf:resource="#Depresion"/>
+        <esta_Contraindicado rdf:resource="#Depresion_Respiratoria"/>
+        <tiene_Posologia rdf:resource="#Dosis_1"/>
+        <tiene_Posologia rdf:resource="#Dosis_2"/>
+        <produce rdf:resource="#Fatiga"/>
+        <cura rdf:resource="#Insomnio"/>
+        <esta_Contraindicado rdf:resource="#Insuficiencia_pulmonar"/>
+        <produce rdf:resource="#Nausea"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Meprobamato -->
+
+    <No_Esencial rdf:about="#Meprobamato">
+        <rdf:type rdf:resource="#Sedante"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <cura rdf:resource="#Ansiedad"/>
+        <produce rdf:resource="#Ataxia"/>
+        <esta_Contraindicado rdf:resource="#Depresion_Respiratoria"/>
+        <tiene_Posologia rdf:resource="#Dosis_3"/>
+        <tiene_Posologia rdf:resource="#Dosis_4"/>
+        <cura rdf:resource="#Espasmo_Muscular"/>
+        <produce rdf:resource="#Euforia"/>
+        <esta_Contraindicado rdf:resource="#Lactancia"/>
+        <produce rdf:resource="#Nausea"/>
+        <esta_Contraindicado rdf:resource="#Porfiria_Aguda"/>
+        <produce rdf:resource="#Somnolencia"/>
+        <produce rdf:resource="#Vertigo"/>
+    </No_Esencial>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Nausea -->
+
+    <Reaccion_Adversa rdf:about="#Nausea">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Reaccion_Adversa>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Nitrazepan -->
+
+    <Esencial rdf:about="#Nitrazepan">
+        <rdf:type rdf:resource="#Hipnotico"/>
+        <rdf:type rdf:resource="#Psicofarmaco"/>
+        <rdf:type rdf:resource="#RelajanteMuscular"/>
+        <rdf:type rdf:resource="#Sedante"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <produce rdf:resource="#Agresividad"/>
+        <cura rdf:resource="#Ansiedad"/>
+        <esta_Contraindicado rdf:resource="#Apnea_del_Sue&#241;o"/>
+        <produce rdf:resource="#Cambio_Salivacion"/>
+        <produce rdf:resource="#Cefalea"/>
+        <esta_Contraindicado rdf:resource="#Da&#241;o_Hepatico"/>
+        <produce rdf:resource="#Depresion"/>
+        <esta_Contraindicado rdf:resource="#Depresion_Respiratoria"/>
+        <tiene_Posologia rdf:resource="#Dosis_13"/>
+        <tiene_Posologia rdf:resource="#Dosis_14"/>
+        <esta_Contraindicado rdf:resource="#Estado_Obsesivo"/>
+        <produce rdf:resource="#Fatiga"/>
+        <cura rdf:resource="#Insomnio"/>
+        <produce rdf:resource="#Nausea"/>
+    </Esencial>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Ni&#241;o -->
+
+    <Grupo_Edad rdf:about="#Ni&#241;o">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <no_Recomienda_Tomar rdf:resource="#Alprazolan"/>
+        <se_Recomienda_Tomar rdf:resource="#Clobazan"/>
+        <se_Recomienda_Tomar rdf:resource="#Clorodiazepoxido"/>
+        <no_Recomienda_Tomar rdf:resource="#Diazepan"/>
+        <no_Recomienda_Tomar rdf:resource="#Medazepan"/>
+        <no_Recomienda_Tomar rdf:resource="#Meprobamato"/>
+        <no_Recomienda_Tomar rdf:resource="#Nitrazepan"/>
+    </Grupo_Edad>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Paciente_1 -->
+
+    <owl:Thing rdf:about="#Paciente_1">
+        <rdf:type rdf:resource="#Paciente"/>
+        <tiene_Grupo_Edad rdf:resource="#Adulto"/>
+        <tiene rdf:resource="#Ansiedad"/>
+        <tiene rdf:resource="#Insomnio"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Paciente_2 -->
+
+    <owl:Thing rdf:about="#Paciente_2">
+        <rdf:type rdf:resource="#Paciente"/>
+        <tiene rdf:resource="#Abtinencia_Alcoholica"/>
+        <tiene_Grupo_Edad rdf:resource="#Adulto_Mayor"/>
+        <tiene rdf:resource="#Ansiedad"/>
+        <tiene_Condicion_Medica rdf:resource="#Da&#241;o_Hepatico"/>
+        <tiene rdf:resource="#Insomnio"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Paciente_3 -->
+
+    <Paciente rdf:about="#Paciente_3">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <tiene_Condicion_Medica rdf:resource="#Apnea_del_Sue&#241;o"/>
+        <tiene rdf:resource="#Epilepsia"/>
+        <tiene_Grupo_Edad rdf:resource="#Ni&#241;o"/>
+    </Paciente>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Porfiria_Aguda -->
+
+    <Condicion_Medica rdf:about="#Porfiria_Aguda">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Condicion_Medica>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Retencion_Urinaria -->
+
+    <owl:Thing rdf:about="#Retencion_Urinaria">
+        <rdf:type rdf:resource="#Reaccion_Adversa"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Somnolencia -->
+
+    <owl:Thing rdf:about="#Somnolencia">
+        <rdf:type rdf:resource="#Reaccion_Adversa"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Trastornos_gastrointestinales -->
+
+    <Reaccion_Adversa rdf:about="#Trastornos_gastrointestinales">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Reaccion_Adversa>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2016/10/Ontology1478300077412.owl#Vertigo -->
+
+    <owl:Thing rdf:about="#Vertigo">
+        <rdf:type rdf:resource="#Reaccion_Adversa"/>
+    </owl:Thing>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="#10-20_mg"/>
+            <rdf:Description rdf:about="#10-15_mg"/>
+            <rdf:Description rdf:about="#0.25-0.5_mg"/>
+            <rdf:Description rdf:about="#20-30_mg"/>
+            <rdf:Description rdf:about="#2.5-5_mg"/>
+            <rdf:Description rdf:about="#200_mg"/>
+            <rdf:Description rdf:about="#5-10_mg"/>
+            <rdf:Description rdf:about="#400_mg"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="#Adulto_Mayor"/>
+            <rdf:Description rdf:about="#Ni&#241;o"/>
+            <rdf:Description rdf:about="#Adulto"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="#Femenino"/>
+            <rdf:Description rdf:about="#Masculino"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+

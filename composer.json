@@ -1,0 +1,28 @@
+{
+    "name": "deltoro/onto360",
+    "description": "Web gestión de ontologías",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ideltoro"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.47"
+    },
+    "repositories": {
+        "asset-packagist": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "^2.1",
+        "yiisoft/yii2-gii": "^2.2"
+    }
+}

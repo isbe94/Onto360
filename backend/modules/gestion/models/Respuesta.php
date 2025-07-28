@@ -1,0 +1,108 @@
+<?php 
+/*Generado by Pro Generator */
+/*@author isbel  */ 
+/*@Date: Wed Jun 21 16:35:00 EDT 2017*/
+
+namespace backend\modules\gestion\models;
+
+use Yii;
+
+/** 
+ * Este es la clase modelo para la tabla respuesta.
+ *
+ * Los siguientes son los campos de la tabla 'respuesta':
+
+ * @property integer $idrespuesta
+ * @property string $respuesta
+
+ * Los siguientes son las relaciones de este modelo :
+
+ * @property pregunta_respuestas[] $arraypregunta_respuestas
+ */
+
+class Respuesta extends \yii\db\ActiveRecord 
+{
+
+	/** 
+	 * @return string the associated database table name
+	 */
+	/**
+     * @inheritdoc 
+     */
+	public static function tableName()
+	{
+		return 'respuesta';
+	}
+
+
+		/**
+	 	 * @return array validation rules for model attributes.
+	 */	/**
+     * @inheritdoc 
+     */
+
+	public function rules()
+	{
+		// NOTE: you should only define rules for those attributes that
+		// will receive user inputs.
+
+		return [
+			[['respuesta'],'required'],
+			[['idrespuesta'],'integer'],
+			[['respuesta'],'string','max' => 500],
+			
+ 		];
+ 	}
+
+ /**
+     * @inheritdoc
+     */
+/**
+	 * @return array customized attribute labels (name=>label)
+	 */
+	public function attributeLabels()
+	{
+		return [
+	     'idrespuesta'=>'Idrespuesta',
+	     'respuesta'=>'Respuesta',
+		];
+	}
+
+	 /**
+     * @return \yii\db\ActiveQuery
+     */
+	  public function getArraypregunta_respuestas()
+		{
+			return $this->hasMany(pregunta_respuestas::className(), ['id_respuesta' => 'idrespuesta']);
+		}
+
+ 	 /**
+     * @inheritdoc
+     * @return RespuestaQuery the active query used by this AR class.
+     */
+    	public static function find()
+    	{
+        return new RespuestaQuery(get_called_class());
+    	}
+/** 
+*  Function to find by unique parameters.
+   @parameters  Array of each value on the unique Key*
+ */
+	public  static function findByUK($condition)	{
+
+		$query=Respuesta::find()->where($condition);
+		return $query->asArray()->one();
+	
+	}
+/** 
+*  Function to find all by parameters.
+   @parameters  Array of each value on the unique Key*
+ */
+	public  static function findAllByCondition($condition)	{
+
+		$query=Respuesta::find()->where($condition);
+		return $query->asArray();
+	
+	}
+}
+ ?>
