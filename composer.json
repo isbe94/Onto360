@@ -16,6 +16,10 @@
             "url": "https://asset-packagist.org"
         }
     },
+    "scripts": {
+        "server-frontend": "php -S localhost:8090 -t frontend",
+        "server-backend": "php -S localhost:8081 -t backend"
+    },
     "config": {
         "allow-plugins": {
             "yiisoft/yii2-composer": true

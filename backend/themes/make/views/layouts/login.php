@@ -34,7 +34,7 @@ AppAssetMakeLogin::register($this);
         <i class="user-img icons-faces-users-03"></i>
         <div class="account-info">
             <a href="dashboard.html" class="logo">
-                <img src="/Onto360/backend/themes/make/assets/images/logo/logo-white.png">
+                <!-- <img src="/themes/make/assets/images/logo/logo-white.png"> -->
             </a>
             <ul>
                 <br>

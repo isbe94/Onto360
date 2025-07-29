@@ -2,8 +2,8 @@ jQuery(document).ready(function () {
     $(".buttonlogout").click(function () {
         $("#form_logout").submit();
     })
-    $("#usersearchadmin").load(urlhome + "site/searchuseradmin")
-    $("#usersearchprop").load(urlhome + "site/searchuserprop")
+    // $("#usersearchadmin").load(urlhome + "site/searchuseradmin")
+    // $("#usersearchprop").load(urlhome + "site/searchuserprop")
     $("#change_pass").on("click", function (e) {
         $.metroMessageBox({
             title: "Cambiar contraseña",

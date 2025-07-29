@@ -190,7 +190,7 @@ var ComponentsUsuario = function () {
 
                 {
                     field: "Avatar",
-                    template: '<div id="item" data-text="#: avatar#">#if( avatar==null){#<span>No tiene</span>#}else{#<img class="user-image img-circle" data-image="#: avatar#" data-usuario="#: usuario#" width="30px" height="30px" src="' + urlhome + '../../images/usuarios/#: avatar#">#}#</div>',
+                    template: '<div id="item" data-text="#: avatar#">#if( avatar==null){#<span>No tiene</span>#}else{#<img class="user-image img-circle" data-image="#: avatar#" data-usuario="#: usuario#" width="30px" height="30px" src="' + urlhome + '/images/usuarios/#: avatar#">#}#</div>',
                     title: "Avatar",
                     width: '20%',   
                     type: "string"

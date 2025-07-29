@@ -5,18 +5,16 @@ $usuario = Yii::$app->getUser()->identity;
 $this->title = 'ONTO 360';
 ?>
 <div class="row">
-    <div class="col-md-6 col-xlg-5">
+    <div class="col-md-6 col-xlg-6">
         <div class="row">
             <div class="col-md-12 m-b-10">
                 <div class="ar-3-2 widget-1-wrapper">
                     <!-- START WIDGET widget_imageWidget-->
-                    <div
-                        class="widget-1 panel no-border bg-complete no-margin widget-loader-circle-lg">
+                    <div class="widget-1 panel no-border bg-complete no-margin widget-loader-circle-lg">
                         <div class="panel-heading top-right ">
                             <div class="panel-controls">
                                 <ul>
-                                    <li><a data-toggle="refresh" class="portlet-refresh text-black"
-                                           href="#"></a>
+                                    <li><a data-toggle="refresh" class="portlet-refresh text-black" href="#"></a>
                                     </li>
                                 </ul>
                             </div>
@@ -41,9 +39,9 @@ $this->title = 'ONTO 360';
                                 <div class="col-sm-height col-top">
                                     <div class="panel-heading ">
                                         <div class="panel-title text-black hint-text">
-                                  <span class="font-montserrat fs-11 all-caps">
-	                                  Ontologías grandes y robustas existentes
-                                  </span>
+                                            <span class="font-montserrat fs-11 all-caps">
+                                                Ontologías grandes y robustas existentes
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -51,17 +49,17 @@ $this->title = 'ONTO 360';
                             <div class="row-sm-height">
                                 <div class="col-sm-height col-top">
                                     <div class="p-l-20 p-r-20">
-                                        <p class=" bold font-montserrat ">-WordNet
-                                            <br>-Cyc</p>
+                                        <p class=" bold font-montserrat ">WordNet
+                                            <br>Cyc
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="row-sm-height">
                                 <div class="col-sm-height col-bottom ">
-                                    <div class="widget-4-chart line-chart "
-                                         data-line-color="success" data-area-color="success-light"
-                                         data-y-grid="false" data-points="false"
-                                         data-stroke-width="2">
+                                    <div class="widget-4-chart line-chart " data-line-color="success"
+                                        data-area-color="success-light" data-y-grid="false" data-points="false"
+                                        data-stroke-width="2">
                                         <svg></svg>
                                     </div>
                                 </div>
@@ -78,8 +76,7 @@ $this->title = 'ONTO 360';
                         <div class="panel-heading pull-top top-right">
                             <div class="panel-controls">
                                 <ul>
-                                    <li><a data-toggle="refresh" class="portlet-refresh text-black"
-                                           href="#">
+                                    <li><a data-toggle="refresh" class="portlet-refresh text-black" href="#">
                                         </a>
                                     </li>
                                 </ul>
@@ -90,16 +87,16 @@ $this->title = 'ONTO 360';
                             <div class=" row-sm-height">
                                 <div class="panel-heading">
                                     <div class="panel-title  ">
-                                  <span class="font-montserrat fs-11 all-caps">
-	                                  Lenguajes ontológicos
-                                  </span>
+                                        <span class="font-montserrat fs-11 all-caps">
+                                            Lenguajes ontológicos
+                                        </span>
                                         <br>
-                                        <p class=" bold font-montserrat ">-OWL
-                                            <br>-CycL <br>-RDF <br>-OBO</p>
+                                        <p class=" bold font-montserrat ">OWL
+                                            <br>CycL <br>RDF <br>OBO
+                                        </p>
                                     </div>
                                 </div>
-                                <div
-                                    class="col-xs-7 col-xs-height col-bottom relative widget-5-chart-container">
+                                <div class="col-xs-7 col-xs-height col-bottom relative widget-5-chart-container">
                                     <div class="widget-5-chart"></div>
                                 </div>
                             </div>
@@ -110,7 +107,7 @@ $this->title = 'ONTO 360';
             </div>
         </div>
     </div>
-    <div class="col-md-6 col-xlg-4">
+    <div class="col-md-6 col-xlg-6">
         <div class="row">
             <div class="col-sm-6 m-b-10">
                 <div class="ar-1-1">
@@ -120,7 +117,9 @@ $this->title = 'ONTO 360';
                             <div class="pull-bottom bottom-left bottom-right padding-25">
                                 <span class="label font-montserrat fs-11">Conocimiento</span>
                                 <br>
-                                <h5 class="text-white">Tanto en Informática como en Filosofía,una Ontología es la representación de entidades, ideas y eventos, junto con sus propiedades y relaciones.</h5>
+                                <h5 class="text-white">Tanto en Informática como en Filosofía,una Ontología es la
+                                    representación de entidades, ideas y eventos, junto con sus propiedades y
+                                    relaciones.</h5>
                             </div>
                         </div>
                     </div>
@@ -132,15 +131,15 @@ $this->title = 'ONTO 360';
                     <!-- START WIDGET widget_plainLiveWidget-->
                     <div class="widget-3 panel no-border bg-complete no-margin widget-loader-bar">
                         <div class="panel-body no-padding">
-                            <div class="metro live-tile" data-mode="carousel" data-start-now="true"
-                                 data-delay="6000">
+                            <div class="metro live-tile" data-mode="carousel" data-start-now="true" data-delay="6000">
                                 <div class="slide-front tiles slide active">
                                     <div class="padding-30">
                                         <br>
                                         <span class="label font-montserrat fs-14">Historia</span>
                                         <br>
                                         <br>
-                                        <h5 class="text-white">Desde mediados de 1970, investigadores en el campo de la inteligencia artificial (IA) reconocieron que capturar el conocimiento</h5>
+                                        <h5 class="text-white">Desde mediados de 1970, investigadores en el campo de la
+                                            inteligencia artificial (IA) reconocieron que capturar el conocimiento</h5>
 
                                     </div>
                                 </div>
@@ -158,7 +157,9 @@ $this->title = 'ONTO 360';
                                         <br>
                                         <span class="label font-montserrat fs-14">Historia</span>
                                         <br>
-                                        <h5 class="text-white hint-text hidden-md">Los investigadores de IA argumentaron que ellos podrían crear nuevas ontologías como modelos computacionales que permitieran cierto grado de razonamiento automático</h5>
+                                        <h5 class="text-white hint-text hidden-md">Los investigadores de IA argumentaron
+                                            que ellos podrían crear nuevas ontologías como modelos computacionales que
+                                            permitieran cierto grado de razonamiento automático</h5>
                                     </div>
                                 </div>
                             </div>
@@ -175,8 +176,10 @@ $this->title = 'ONTO 360';
                         <div class="panel-body">
                             <div class="pull-bottom bottom-left bottom-right padding-25">
                                 <span class="label font-montserrat fs-14">Ingeniería de Ontología</span>
-                                <h5 class="text-white">Rama de la ingeniería del conocimiento que estudia el proceso de desarrollo de las ontología</h5>
-                                <p class="text-white">su ciclo de vida, los métodos y las metodologías para construirla, así como las herramientas y lenguajes que las soportan.</p>
+                                <h5 class="text-white">Rama de la ingeniería del conocimiento que estudia el proceso de
+                                    desarrollo de las ontología</h5>
+                                <p class="text-white">su ciclo de vida, los métodos y las metodologías para construirla,
+                                    así como las herramientas y lenguajes que las soportan.</p>
                             </div>
                         </div>
                     </div>
@@ -191,17 +194,22 @@ $this->title = 'ONTO 360';
                                 <div class="slide-front tiles slide active">
                                     <div class="padding-30">
                                         <br>
-                                        <span class="label font-montserrat fs-14"><i class="fa fa-plus"></i> Historia</span>
+                                        <span class="label font-montserrat fs-14"><i class="fa fa-plus"></i>
+                                            Historia</span>
                                         <br>
-                                        <h5 class="text-white">A principios de los 90, una página web y un artículo muy citados:"Toward Principles for the Design of Ontologies Used for Knowledge Sharing" por Tom Gruber</h5>
+                                        <h5 class="text-white">A principios de los 90, una página web y un artículo muy
+                                            citados:"Toward Principles for the Design of Ontologies Used for Knowledge
+                                            Sharing" por Tom Gruber</h5>
                                     </div>
                                 </div>
                                 <div class="slide-back tiles">
                                     <div class="padding-30">
                                         <br>
-                                        <span class="label font-montserrat fs-14"><i class="fa fa-plus"></i> Historia</span>
+                                        <span class="label font-montserrat fs-14"><i class="fa fa-plus"></i>
+                                            Historia</span>
                                         <br>
-                                        <h5 class="text-white">reconocieron una definición deliberada de ontología, como un término técnico en ciencia de la computación .</h5>
+                                        <h5 class="text-white">reconocieron una definición deliberada de ontología, como
+                                            un término técnico en ciencia de la computación .</h5>
                                     </div>
                                 </div>
                             </div>

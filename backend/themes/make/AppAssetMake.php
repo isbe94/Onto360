@@ -16,7 +16,7 @@ use yii\web\AssetBundle;
 class AppAssetMake extends AssetBundle
 {
     public $basePath = '@webroot';
-    public $baseUrl = '@web/themes/make';
+    public $baseUrl = '/themes/make';
 
 
     public $css = [
